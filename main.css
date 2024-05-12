@@ -12,12 +12,33 @@ h1 {
     word-spacing: normal;
     line-height: normal;
 }
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .margin{
+    margin-left: 75px;
+  }
+img{
+    border-radius: 8px;
+}
 h2{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: normal;
+    text-align: center;
+}
+nav{
+    text-align: center;
 }
 li{
     margin: 0 20px;
