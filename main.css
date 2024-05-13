@@ -11,6 +11,7 @@ h1 {
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
+    background-color: coral;
 }
 .column {
     float: left;
@@ -27,18 +28,22 @@ h1 {
   }
 img{
     border-radius: 8px;
+    background-color: coral;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: coral;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: normal;
     text-align: center;
+    background-color: coral;
 }
 nav{
     text-align: center;
+    background-color: coral;
 }
 li{
     margin: 0 20px;
